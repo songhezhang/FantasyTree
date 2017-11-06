@@ -4,5 +4,4 @@
 .project
 target/
 .cache
-.classcom
-com/fantasystep/domain/
+.class
