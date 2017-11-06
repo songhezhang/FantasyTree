@@ -446,7 +446,7 @@ public class PersistenceProxy
 		Set<Resource> resources = new HashSet<Resource>();
 
 		for( Resource res : getResourcesByClass( clazz ) )
-			if( res.getMembers() != null && res.getMembers().contains( node.getId().toString() ) )
+			if( res.getMembers() != null && res.getMembers().contains( node.getId() ) )
 				resources.add( res );
 
 		Node parent = getCache().get( node.getParentId() );
